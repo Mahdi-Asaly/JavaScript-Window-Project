@@ -1,0 +1,285 @@
+.withWater:hover {
+  background-color: rgba(251, 255, 28, 0.931);
+  cursor: pointer;
+}
+
+.withOutWater:hover {
+  background-color: rgba(251, 255, 28, 0.931);
+  cursor: pointer;
+}
+#inputs___height > h2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+#inputs___width > h2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+#inputs___boxHeight > h2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+#inputs___depth > h2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+#inputs___height:hover {
+  background-color: wheat;
+  cursor: pointer;
+}
+#inputs___width:hover {
+  background-color: wheat;
+  cursor: pointer;
+}
+#inputs___boxHeight:hover {
+  background-color: wheat;
+  cursor: pointer;
+}
+#inputs___depth:hover {
+  background-color: wheat;
+  cursor: pointer;
+}
+#inputs___width {
+  border: 1px solid gray;
+  flex: 1;
+  text-align: center;
+  border-radius: 13px;
+  margin-left: 10px;
+  background-color: rgb(202, 246, 243);
+  color: rgb(106, 16, 252);
+}
+#inputs___height {
+  border: 1px solid gray;
+  flex: 1;
+  text-align: center;
+  border-radius: 13px;
+  background-color: rgb(202, 246, 243);
+  color: rgb(106, 16, 252);
+}
+#inputs___boxHeight {
+  border: 1px solid gray;
+  flex: 1;
+  text-align: center;
+  border-radius: 13px;
+  margin-left: 10px;
+  background-color: rgb(202, 246, 243);
+  color: rgb(106, 16, 252);
+}
+#inputs___depth {
+  border: 1px solid gray;
+  border-radius: 13px;
+  flex: 1;
+  text-align: center;
+  margin-left: 10px;
+  background-color: rgb(202, 246, 243);
+  color: rgb(106, 16, 252);
+}
+
+#inputs___results {
+  display: none;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.withWater {
+  border-radius: 15px;
+  border: solid 2px green;
+  font-size: 24px;
+  margin-right: 10px;
+  background-color: rgb(197, 197, 197);
+  padding: 5px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.withOutWater {
+  border-radius: 15px;
+  border: solid 2px green;
+  font-size: 24px;
+  margin-left: 10px;
+  background-color: rgb(197, 197, 197);
+  padding: 5px;
+}
+.reset:hover {
+  background-color: rgba(245, 71, 71, 0.931);
+  cursor: pointer;
+}
+.reset {
+  border-radius: 15px;
+  border: solid 2px rgb(246, 111, 0);
+  font-size: 24px;
+  margin-left: 10px;
+  background-color: rgb(197, 197, 197);
+  padding: 5px;
+  width: 40%;
+  align-items: center;
+  text-align: center;
+  color: rgb(7, 6, 6);
+}
+.type {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+img {
+  width: 30px;
+  height: 35px;
+  cursor: pointer;
+}
+.print {
+  display: none;
+}
+.p-active {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  position: absolute;
+}
+.print > h4 {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.print:hover {
+  color: rgb(251, 14, 14);
+}
+
+.container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: space-between;
+}
+
+.active {
+  background-color: rgb(96, 226, 96);
+}
+.show {
+  display: block;
+}
+#title-1,
+#title-2 {
+  display: none;
+  text-align: center;
+  border: 5px solid rgb(80, 73, 73);
+  padding: 6px;
+  background-color: rgb(206, 209, 25);
+  border-radius: 20px;
+}
+table {
+  background-color: rgb(228, 207, 207);
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.results {
+  margin: 15px;
+}
+#table-results td,
+#table-results-2 td,
+#table-results th,
+#table-results-2 th {
+  border: 1px solid rgb(211, 62, 62);
+  padding: 8px;
+}
+
+.top___bar {
+  display: flex;
+  text-align: right;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.top___bar > h2 {
+  color: rgb(228, 228, 228);
+  margin: 10px;
+}
+
+.top___bar > h2 > a {
+  color: rgb(228, 228, 228);
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(228, 228, 228);
+}
+
+.top___bar > h2 > a:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+.top___bar > h2:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(238, 238, 238);
+}
+input {
+  margin: 2px;
+  display: flex;
+  flex: 1;
+}
+form > div > button {
+  background-color: black;
+}
+form {
+  background-color: white;
+  width: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#footer {
+  display: flex;
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+#footer > h2 {
+  color: white;
+  font-size: 15px;
+}
+
+#footer > h2:hover {
+  cursor: pointer;
+  color: wheat;
+}

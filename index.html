@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js" defer></script>
+
+</head>
+
+<body>
+    <div class="top___bar">
+        <h2>
+            <a href="https://mahdi-dev.com">צור קשר </a>
+        </h2>
+        <h2>
+            <a href="#">אפלקציה לחישוב משקופים </a>
+        </h2>
+    </div>
+    <div class="container">
+        <form name="form1" onsubmit="false">
+            <fieldset>
+            <legend>נא להזין נתונים</legend>
+            <label>רוחב</label>
+            <input id="width" type="number" placeholder="רוחב"> 
+            <label>גובה</label>
+            <input id="height" type="number" placeholder="גובה">
+            <label>עומק</label>
+            <input id="depth" type="number" placeholder="עומק">
+            <label>גובה הארגז</label>
+            <input id="boxHeight" type="number" placeholder="גובה הארגז">
+            <div class="type">
+                <div class="withWater" id="withWater"> חלון עם אף מים </div>
+                <div class="withOutWater" id="withOutWater"> חלון בלי אף מים </div>
+            </div>
+            <div class="reset" id="reset">X נקה הכל </div>
+
+            </fieldset>
+        </form>
+        <div id="results" class="results">
+            <div id="inputs___results">
+                <div id="inputs___height">
+                    <h2>גובה</h2>
+                    <h3></h3>
+                </div>
+                <div id="inputs___width">
+                    <h2>רוחב</h2>
+                    <h3></h3>      
+                </div>
+                <div id="inputs___boxHeight">
+                    <h2>גובה הפריקסט</h2>
+                    <h3></h3>
+                </div>
+                <div id="inputs___depth">
+                    <h2>עומק</h2>
+                    <h3></h3>
+                </div>
+            </div>
+            <table id="table-results">
+            <h2 id='title-1'>חישוב פתח החלון</h2>
+                <!-- here goes our data! -->
+            </table>
+            <br>
+            <table id="table-results-2">
+            <h2 id='title-2'>חישוב הפריקסט</h2>
+                <!-- here goes our data! -->
+            </table> 
+            <div id="print" class="print">
+                <h4>הדפסה</h4>
+                <img id='print-btn' src="./pics/print.png"/>
+            </div>   
+        </div>
+    </div>
+
+
+</body>
+<footer id="footer" role="contentinfo">
+    <h2>All the rights Reserved 2021 - MahdiAsaly@gmail.com</h2>
+</footer>
+
+</html>
